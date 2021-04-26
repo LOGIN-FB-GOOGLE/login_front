@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "login-front"
+    }
+  },
+  "defaultProject": "login-front",
+  "cli": {
+    "analytics": "4c52e09d-cf2b-4014-9784-00b3775f42f6"
+  }
 }
