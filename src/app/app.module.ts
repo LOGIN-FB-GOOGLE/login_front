@@ -6,17 +6,20 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import {FacebookLoginProvider, GoogleLoginProvider, SocialAuthServiceConfig, SocialLoginModule} from 'angularx-social-login';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
+    // HttpClientModule,
     AppRoutingModule,
     NgbModule,
-    SocialLoginModule
+    SocialLoginModule,
+    HttpClientModule,
   ],
   providers: [
     {
